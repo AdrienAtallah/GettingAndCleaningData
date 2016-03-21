@@ -19,6 +19,6 @@ More information, visit the UCI Machine Learning Repository: [Human Activity Rec
 
 ###Analysis files:
 
-'run_analysis.R'  reads in the raw data files contained in the 'UCI HAR Datset' as well as descriptor files.  It then extracts only the mean and standard deviation measurements, reorders a new data frame involving both the test and training subjects that is ordered by activity and subject.  this is written to a file 'test_training-Mean_SD.csv'.  The script also calculates the means of each measurement by activity and subject and writes the data to 'Means_by_Subject-Activity.csv'
+'run_analysis.R'  reads in the raw data files contained in the 'UCI HAR Datset' as well as descriptor files.  It then extracts only the mean and standard deviation measurements, reorders a new data frame involving both the test and training subjects that is ordered by activity and subject.  The script then calculates the means of each measurement by activity and subject and writes the data to 'Means_by_Subject-Activity.txt'
 
 

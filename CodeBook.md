@@ -2,7 +2,7 @@
 by: Adrien Atallah
 
 ##CodeBook:
-This codebook describes the variables in 'test_training-Mean_SD.csv' and 'Means_by_Subject-Activity.csv' for background information on the raw data and how these files are created, see "README.md".  Full step-by-step details available in 'run_analysis.R'
+This codebook describes the variables in 'Means_by_Subject-Activity.txt' for background information on the raw data and how these files are created, see "README.md".  Full step-by-step details available in 'run_analysis.R'
 
 
 ###Variables:
@@ -92,6 +92,6 @@ This codebook describes the variables in 'test_training-Mean_SD.csv' and 'Means_
 "81" "BodyBodyGyroJerkMag-meanFreq"
 
 ###Description:
-'test_training-Mean_SD.csv' and 'Means_by_Subject-Activity.csv' are created by the script 'run_analysis.R'.  'test_training-Mean_SD.csv'  has all of the above mentioned variables ordered by activity and subject.  'Means_by_Subject-Activity.csv' has the means of all the above variables for each activity and each subject.  For step-by-step details on the process of how these files were created, see 'run_analysis.R'
+'Means_by_Subject-Activity.txt' is created by the script 'run_analysis.R'.  It has the means of all the above variables for each activity and each subject.  For step-by-step details on the process of how these files were created, see 'run_analysis.R'
 
 
