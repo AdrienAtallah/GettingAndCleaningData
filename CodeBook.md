@@ -1,7 +1,4 @@
-#Coursera: Getting and Cleaning Data Course Project
-by: Adrien Atallah
-
-##CodeBook:
+#CodeBook:
 This codebook describes the variables in `Means_by_Subject-Activity.txt` for background information on the raw data and how these files are created, see `README.md`.  Full step-by-step details available in `run_analysis.R`
 
 
