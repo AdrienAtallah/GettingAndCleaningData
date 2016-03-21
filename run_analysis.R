@@ -53,11 +53,12 @@ colnames(df) <- gsub("^f|^t|\\()", "", names)
 
 #reorder data:
 df <- df[order(df$subject, df$activity),]
-df <- df[,c(80,81,1:79)]
+df <- df[,c(81,80,1:79)]
 
 #create data frame of means by activity and subject:
 meanbyactsub <- aggregate(df[,3:81], by=list(df$activity, df$subject), FUN = "mean")
-colnames(meanbyactsub)[1:2] <- c("activity", "subject")
+meanbyactsub <- meanbyactsub[,c(2,1,3:81)]
+colnames(meanbyactsub)[1:2] <- c("subject", "activity")
 
 #write data of means to csv file:
 write.table(meanbyactsub, "./Means_by_Subject-Activity.txt", row.name=FALSE)
